@@ -292,6 +292,7 @@ border-radius: 16px;
     border-radius: 30px;
     height: 60px;
     padding: 0 10px 0 0 ;
+    color: red;
 }
 #uniq{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -321,3 +322,20 @@ font-size: 40px;
     right: 100px;
     
 }
+
+.common-game-section:hover{
+    cursor: pointer;
+    border: 1px solid red;
+    color: red;
+
+    
+}
+.uniqu-cards:hover{
+    cursor:pointer ;
+    
+    transform: scale(1.1);
+    
+
+    
+}
+
