@@ -205,3 +205,46 @@ border-radius: 16px;
 
    
 }
+.game-section{
+    margin: 0 auto 50px;
+    width: 70%;
+    /* display: flex; */
+    /* justify-content: center; */
+    border: 2px solid rgb(51, 153, 102);
+
+}
+.game-line-01{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.game-line-02{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+.common-game-section{
+    display: flex;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 30px;
+    height: 60px;
+    padding: 0 10px ;
+    
+}
+
+
+.uncommon-game-section{
+    display: flex;
+    border: 1px solid red;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 30px;
+    height: 60px;
+    padding: 0 10px ;
+}
