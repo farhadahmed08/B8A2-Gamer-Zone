@@ -27,12 +27,7 @@ body {
    /* border: 1px solid salmon; */
    width: 90px;
    margin-right: 10px;
-  
-   
-   
-  
-   
-   padding: 5px;
+    padding: 5px;
 }
 .logo-container p{
     /* text-align: center; */
@@ -54,8 +49,7 @@ body {
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     width: 120px;
-    height: 30px
-    ;
+    height: 30px;
     
 }
 .nav-anchor{
@@ -70,23 +64,60 @@ body {
 }
 
 .banner-container{
-  border: 5px solid sandybrown;
+  /* border: 5px solid sandybrown; */
   display: flex;
 }
 .banner-container-details{
-    border: 5px solid sandybrown;
+    /* border: 5px solid sandybrown; */
     width: 50%;
+    
+    
+    
+}
+.banner-left{
+    
+    
+    /* border: 5px solid rgb(96, 98, 244); */
+    text-align: center;
+    padding-top: 100px;
+    max-width: 300px;
+    margin: auto;
+
+    
 }
 .banner-btn{
-    border: 5px solid sandybrown;
+   
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+.button-one{
+    
+padding: 10px;
+color: #fff;
+
+border-radius: 10px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+.button-two{
+    
+
+
+
+color: #fff;
+border-radius: 20px;
+background: #4EC5F7;
 }
 .banner-container-details{
     background-image: url("images/Group\ 14.png");
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat:no-repeat ;
 }
 
 .banner-right{
-    border: 5px solid sandybrown;
+    /* border: 5px solid sandybrown; */
     width: 40%;
     display: flex;
     justify-content: center;
@@ -155,7 +186,7 @@ body {
 
 }
 .card-containter{
-    border: 2px solid slateblue;
+    /* border: 2px solid slateblue; */
     width: 70%;
     margin: 0 auto;
     display: flex;
@@ -165,7 +196,7 @@ body {
 }
 .cards{
     width: 342px;
-    border: 2px solid slateblue;
+    /* border: 2px solid slateblue; */
 height: 400px;
 flex-shrink: 0;
 border-radius: 16px;
@@ -183,8 +214,8 @@ border-radius: 16px;
 
 }
 .play-instantly-part{
-    border: 2px solid red;
-    margin: 0 auto 50px;
+    /* border: 2px solid red; */
+    margin: 50px auto 0px;
     width: 70%;
     display: flex;
     gap: 30px;
@@ -192,25 +223,39 @@ border-radius: 16px;
     
     
 }
-.left-side-desc{
+.left-side-cont{
     width:40% ;
-    border: 2px solid rebeccapurple;
-    text-align: center;
+    height: 70%;
     
+    /* border: 2px solid rebeccapurple; */
+    text-align: center;
+    /* border: 2px solid slateblue; */
+    
+}
+.left-side-desc{
+    /* border: 2px solid slateblue; */
+    max-width: 300px;
+    
+    margin: 150px auto;
+    text-align: left;
+}
+.left-side-desc p{
+    text-align: left;
 }
 .right-side img{
     width: 100%;
-    height: 100%;
+    height: 70%;
     border: 2px solid rgb(51, 153, 102);
 
    
 }
 .game-section{
-    margin: 0 auto 50px;
+    margin: 0px auto 50px;
     width: 70%;
+
     /* display: flex; */
     /* justify-content: center; */
-    border: 2px solid rgb(51, 153, 102);
+    /* border: 2px solid rgb(51, 153, 102); */
 
 }
 .game-line-01{
@@ -246,5 +291,33 @@ border-radius: 16px;
     gap: 15px;
     border-radius: 30px;
     height: 60px;
-    padding: 0 10px ;
+    padding: 0 10px 0 0 ;
+}
+#uniq{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+font-size: 30px;
+
+font-weight: 700;
+
+}
+#differnt-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: 800;
+font-size: 40px;
+
+}
+.flot-pic{
+    height: 250px;
+    width: 200px;
+    position: relative;
+    bottom: 120px;
+    right: 100px;
+    
 }
